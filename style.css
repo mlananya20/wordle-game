@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+.game-container {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+
+    width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+}
+
+#gameBoard {
+    margin: 20px auto 10px;
+}
+.row {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    margin-bottom: 5px;
+}
+.cell {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #d3d6da;
+}
+
+
+.guess-form {
+    text-align: center;
+    margin-top: 10px;
+}
+#submitButton {
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+#feedback {
+    font-weight: bold;
+    margin-top: 10px;
+}
